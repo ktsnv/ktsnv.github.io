@@ -50,7 +50,6 @@ footer {
   bottom: 0;
   background-color: #d08159;
 }
-
 input {
 	height: 1.2rem;
 	outline: none;
@@ -78,12 +77,10 @@ input {
   padding: 20px 20px;
   background-color: #ffecd6;
 }
-
 img {
   border-radius: 12px;
   margin: 50px 8px;
 }
-
 .button3 {
   background-color: #0d2b45;
   border: none;
@@ -105,61 +102,4 @@ img {
   border-radius: 24px;
   padding: 20px 20px;
   background-color: #ffecd6;
-}
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  padding-top: 20px;
-  padding-bottom: 30px;
-}
-.card-wrapper {
-  padding-top: 20px;
-}
-.card-img-top {
-  width: 100px;
-  height: auto;
-  border-radius: 50%;
-  padding-top: 10px;
-}
-.card {
-  background: #fff;
-  box-shadow: 0 8px 15px -7px #c9dff0;
-  margin: 0 10px;
-  padding-left: 10px;
-  border-radius: 20px;
-  border: 0;
-  color: #3b3b3b;
-  width: 200px;
-  height: 350px;
-}
-.card-text {
-  height: 175.6px;
-  padding-bottom: 10px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-.thing {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  text-align: center;
-  background-color: #fff;
-  color: #3b3b3b;
-  height: 200px;
-  border-radius: 20px;
-  box-shadow: 0 8px 15px -7px #c9dff0;
-  padding-top: 10px;
-}
-.glyphicon {
-  font-size: 30px;
-  padding-top: 200px;
-}
-.fa {font-size:50px;}
-.text-center {
-  text-align: center;
-}
-.text-center-highlight {
-  text-align: center;
-  background-color: #1c1c1d;
-  color: #c9c9c9;
 }
