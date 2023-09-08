@@ -155,14 +155,6 @@ img {
   padding-top: 200px;
 }
 .fa {font-size:50px;}
-.fa-gear {
-  padding-top: 5px;
-  padding-right: 5px;
-  padding-left: 5px;
-  padding-bottom: 5px;
-  color: #fff;
-  font-size: 40px;
-}
 .text-center {
   text-align: center;
 }
@@ -170,9 +162,4 @@ img {
   text-align: center;
   background-color: #1c1c1d;
   color: #c9c9c9;
-}
-body {
-  background-color: #1c1c1d;
-  color: #c9c9c9;
-  font-family: 'Nunito' sans-serif;
 }
