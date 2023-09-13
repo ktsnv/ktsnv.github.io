@@ -48,7 +48,7 @@ footer {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #d08159;
+  background-image: linear-gradient(to left, rgba(208,129,89,0), rgba(255,0,0,1));
 }
 input {
 	height: 1.2rem;
