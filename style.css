@@ -82,7 +82,7 @@ img {
   margin: 50px 8px;
 }
 .button3 {
-  border: none;
+  border: #0d2b45;
   color: #d08159;
   padding: 16px 16px;
   text-align: center;
@@ -92,8 +92,8 @@ img {
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   border-radius: 12px;
-  width: 5%;
-  margin: 16px 16px;
+  width: 25%;
+  margin: 10px 10px;
   display: block;
 }
 .button3:hover {
