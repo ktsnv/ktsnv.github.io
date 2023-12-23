@@ -1,110 +1,15 @@
-<!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
-    <title>Game</title>
-    <link rel="shortcut icon" href="https://app-98522.games.s3.yandex.net/98522/i2b139i4zy6bjx3w40nxztn6v79k3103/TemplateData/favicon.ico">
-    <link rel="stylesheet" href="https://app-98522.games.s3.yandex.net/98522/i2b139i4zy6bjx3w40nxztn6v79k3103/TemplateData/style.css">
-    <script src="Thttps://app-98522.games.s3.yandex.net/98522/i2b139i4zy6bjx3w40nxztn6v79k3103/TemplateData/UnityProgress.js"></script>
-    <script src="https://app-98522.games.s3.yandex.net/98522/i2b139i4zy6bjx3w40nxztn6v79k3103/Build/UnityLoader.js"></script>
-    <script src="https://yandex.ru/games/sdk/v2"></script>
-    <script>
-    
-	function FitScreen(){
-       var w = window.innerWidth;
-       var h = window.innerHeight - 10;
-       var availWidth = window.innerWidth;
-       var availHeight = window.innerHeight - 10;
-	   
-       var canvas = document.getElementById("#canvas");
-       if(availWidth/availHeight>w/h){
-         height = availHeight;
-         width = (height*w/h);
-      }else{
-         width = availWidth;
-         height = width*h/w;
-      }
-	  
-      canvas.width = width;
-      canvas.height = height;
-	  
-       document.getElementById("gameContainer").style.width=width + "px";
-       document.getElementById("gameContainer").style.height=height + "px";
-	   
-    }
-    
-    function InitExternEval(_appId) 
-    {
-        console.log('YandexInitExternEval ' + _appId);
-        
-        YaGames
-                .init()
-                .then(ysdk_ => {
-                    window.ysdk = ysdk_;
-                     window.ysdk.adv.showFullscreenAdv({
-                        callbacks: {
-                             onClose: function() {
-								gameInstance.SendMessage('YandexAPI', 'AdMessage', 'onClose');
-							},
-						
-							onOpen: function() {
-								gameInstance.SendMessage('YandexAPI', 'AdMessage', 'onOpen');
-							},
-							
-							onError: function() {
-								gameInstance.SendMessage('YandexAPI', 'AdMessage', 'onError');
-							},
-							
-							onOffline: function() {
-								gameInstance.SendMessage('YandexAPI', 'AdMessage', 'onOffline');
-							}
-							}
-                    });
-                })
-    }
-    
-    function ExternEval() 
-    {
-        console.log('YandexExternEval');
-		
-		gameInstance.SendMessage('YandexAPI', 'AdMessage', 'CallAd');
-    
-		
-		window.ysdk.adv.showFullscreenAdv({
-                    callbacks: {
-                        onClose: function() {
-							gameInstance.SendMessage('YandexAPI', 'AdMessage', 'onClose');
-						},
-					
-                        onOpen: function() {
-							gameInstance.SendMessage('YandexAPI', 'AdMessage', 'onOpen');
-						},
-						
-                        onError: function() {
-							gameInstance.SendMessage('YandexAPI', 'AdMessage', 'onError');
-						},
-						
-                        onOffline: function() {
-							gameInstance.SendMessage('YandexAPI', 'AdMessage', 'onOffline');
-						}
-						
-                    }
-                });
-    }
-    
-    
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/game.json", {onProgress: UnityProgress});
-	  
-	   
-	  
-    </script>
-  </head>
-  <body onfocus="FitScreen();" onload="FitScreen();" onresize="FitScreen();">
-      
-    <div class="webgl-content">
-      <div id="gameContainer" style="width: auto; height: auto"></div>
-    </div>
-  </body>
-</html>
+DOCTYPE! html
+<html>
+<style>
+body {
+    margin: 0;            /* Reset default margin */
+}
+iframe {
+    display: block;       /* iframes are inline by default */
+    background: #000;
+    border: none;         /* Reset default border */
+    height: 100vh;        /* Viewport-relative units */
+    width: 100vw;
+}
+</style>
+<iframe src="https://app-98522.games.s3.yandex.net/98522/i2b139i4zy6bjx3w40nxztn6v79k3103/index.html?utm_campaign=morda&utm_medium=com&utm_source=yandex&first-seen=%7B%22utm_source%22%3A%22yandex%22%7D&sdk=%2Fsdk%2F_%2Fv2.2b80c396cede31fb2447.js#origin=https%3A%2F%2Fyandex.com&app-id=98522&device-type=desktop" title="spaceguard"></iframe>
