@@ -63,3 +63,12 @@ nav {
 html {
     background-color: #272744;
 }
+iframe {
+  width: 75%;
+  height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px 16px;
+  background-color: #272744;
+  border-radius: 12px;
+}
