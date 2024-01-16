@@ -64,11 +64,11 @@ html {
     background-color: #272744;
 }
 iframe {
-  width: 75%;
+  width: 100%;
   height: 100%;
   margin-left: auto;
   margin-right: auto;
   padding: 16px 16px;
-  background-color: #272744;
+  background-color: #FFFFFF;
   border-radius: 12px;
 }
