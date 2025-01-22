@@ -9,9 +9,12 @@ function setup() {
   let i = 0;
   while (i<size) {
     const br = document.createElement("br");
+    const a = document.createElement('a');
     container.append(br);
-    container.append(repos[i].full_name);
-    console.log(repos[i].full_name)
+    a.setAttribute('href',repos[i].html_url);
+    a.innerHTML = repos[i].full_name;
+    container.append(a);
+    console.log(a)
     i++;
   }
 }
