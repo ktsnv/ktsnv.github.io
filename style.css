@@ -10,7 +10,7 @@ body, html {
 
 .container {
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5) inset;
-  font-family: "Lucida Console", "Courier New", monospace;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   backdrop-filter: blur(15px);
   border-radius: 10px;
   background-color: rgba(0,0,0,0.25);
@@ -37,5 +37,5 @@ img {
 }
 
 img:hover {
-  box-shadow: 0px 0px 25px 0px rgba(255,255,255,0.2);
+  box-shadow: 0px 0px 25px 0px rgba(255,255,255,0.5);
 }
